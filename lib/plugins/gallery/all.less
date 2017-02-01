@@ -1,0 +1,37 @@
+/* load swipe box */
+@import "swipebox/css/swipebox.less";
+
+/* fix image paths */
+#swipebox-slider .slide-loading {
+    background: url(swipebox/img/loader.gif) no-repeat center center;
+}
+
+#swipebox-prev,
+#swipebox-next,
+#swipebox-close {
+    background-image: url(swipebox/img/icons.png);
+}
+
+/* style overrides */
+#swipebox-overlay {
+    background-color : rgba(200,200,200,0.5);
+    width: 98% ! important;
+}
+
+#swipebox-top-bar {
+    background-color : transparent;
+    div.title {
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+    div.caption {
+        font-size: 13px;
+        line-height: 1.5em;
+    }
+    padding: 10px;
+}
+
+div.dokuwiki div.gallery img.tn {
+    border: 0px !important;
+}
+
